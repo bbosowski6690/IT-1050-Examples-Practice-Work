@@ -1,0 +1,2 @@
+c:\users\s01064155\documents\visual studio 2013\Projects\RoughDraftAssignment2Solution\RoughDraftAssignment2Project\bin\Debug\RoughDraftAssignment2Project.exe.config
+c:\users\s01064155\documents\visual studio 2013\Projects\RoughDraftAssignment2Solution\RoughDraftAssignment2Project\obj\Debug\RoughDraftAssignment2Project.csprojResolveAssemblyReference.cache
