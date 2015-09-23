@@ -7,6 +7,7 @@
             double SumOfAllAges = 0;
             double NumberOfPeople = 0;
             double AverageAge = SumOfAllAges / NumberOfPeople;
+            
             int TotalPeople = 0;
 
             Person person1 = new Person();

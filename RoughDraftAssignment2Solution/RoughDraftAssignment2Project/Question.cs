@@ -10,7 +10,7 @@ namespace RoughDraftAssignment2Project
     {
         public static string AskForString(string prompt)
         {
-            System.Console.Write(prompt);
+            System.Console.Write(prompt + " ");
             return System.Console.ReadLine();
         }
 
