@@ -16,17 +16,21 @@ namespace RoughDraftAssignment2Project
             int TotalPeople = 0;
 
             Person person1 = new Person();
+            person1.Spouse = new Person();
             person1.GatherDataFromUser();
-
+            person1.Spouse.Spouse = person1;
+            
             
             Person person2 = new Person();
+            person2.Spouse = new Person();
             person2.GatherDataFromUser();
-
+            person2.Spouse.Spouse = person2;
 
 
             Person person3 = new Person();
+            person3.Spouse = new Person();
             person3.GatherDataFromUser();
-
+            person3.Spouse.Spouse = person3;
 
             System.Console.WriteLine(person1.PrintNameAndAge());
             System.Console.WriteLine(person1.PrintSpouseNameAndAge());
