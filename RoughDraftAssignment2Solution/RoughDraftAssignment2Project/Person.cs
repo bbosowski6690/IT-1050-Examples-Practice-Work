@@ -1,31 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RoughDraftAssignment2Project
+﻿namespace RoughDraftAssignment2Project
 {
     class Person
     {
-        Person Spouse;
+        
 
-        bool IsMarried()
-        {
-            return this.SpouseFirstName != null;
-            return this.SpouseAge != null;
-        }
+        
         
         public string FirstName;
         public string LastName;
         public int Age;
-        public bool IsMarried;
-        Person Spouse;
+        public Person Spouse;
         public string SpouseFirstName;
         public int SpouseAge;
+        public bool IsMarried()
+        {
+            return this.SpouseFirstName != null;
+            return this.SpouseAge != null;
+        }
 
-        
-        
         public string GetFullName()
         {
             return this.FirstName + " " + this.LastName;
